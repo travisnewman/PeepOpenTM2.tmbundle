@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/sh
+defaults write com.topfunky.PeepOpen editorApplicationName "TextMate 2"
+open "peepopen://${TM_PROJECT_DIRECTORY}?editor="
+
+#!/usr/bin/env ruby -wKU
+# dir = ENV["TM_PROJECT_DIRECTORY"]
+# # puts dir
+# s="peepopen://#{dir}?editor=TextMate+2"
+# `open #{s}`
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>@t</string>
+	<key>name</key>
+	<string>Open File with PeepOpen</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>F8213FEE-5B6E-4012-9DD9-0706ADA55645</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

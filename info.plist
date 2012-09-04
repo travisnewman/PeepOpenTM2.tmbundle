@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>uryyb@wbfutbrory.pbz</string>
+	<key>contactName</key>
+	<string>Josh Goebel</string>
+	<key>description</key>
+	<string>Hacked support for PeepOpen and TextMate 2</string>
+	<key>name</key>
+	<string>PeepOpen</string>
+	<key>uuid</key>
+	<string>FC4A1A73-BD40-4A91-A574-EFB00EAC9D02</string>
+</dict>
+</plist>
