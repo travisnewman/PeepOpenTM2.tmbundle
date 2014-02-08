@@ -6,13 +6,13 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/sh
-defaults write com.topfunky.PeepOpen editorApplicationName "TextMate 2"
+defaults write com.topfunky.PeepOpen editorApplicationName "TextMate"
 open "peepopen://${TM_PROJECT_DIRECTORY}?editor="
 
 #!/usr/bin/env ruby -wKU
 # dir = ENV["TM_PROJECT_DIRECTORY"]
 # # puts dir
-# s="peepopen://#{dir}?editor=TextMate+2"
+# s="peepopen://#{dir}?editor=TextMate"
 # `open #{s}`
 </string>
 	<key>input</key>
